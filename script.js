@@ -5,3 +5,7 @@ function randomColor() {
 $('.random').on('click', function(){
   $('body').css("background-color", randomColor);
 });
+
+$('.white').on('click', function(){
+  $('body').css("background-color", "#ffffff");
+});

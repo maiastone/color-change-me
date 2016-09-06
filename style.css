@@ -1,14 +1,10 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-
-}
-
 button {
   width: 200px;
   height: 100px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 26px;
   color: #ffffff;
-  margin: 15px;
+  margin: 22px;
   background-color: #e5b6d5;
   border: 10px solid #cc7fb5;
   border-top-color: #b2479a;

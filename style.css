@@ -1,12 +1,13 @@
 button {
-  width: 200px;
-  height: 100px;
+  width: 270px;
+  height: 120px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 26px;
+  font-size: 34px;
+  text-transform: uppercase;
   color: #ffffff;
-  margin: 22px;
+  margin: 35px;
   background-color: #e5b6d5;
-  border: 10px solid #cc7fb5;
+  border: 12px solid #cc7fb5;
   border-top-color: #b2479a;
   border-bottom-color: #b2479a;
   font-weight: 100px;
@@ -34,17 +35,17 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
-  .random {
-    margin-top: 50%;
-  }
   .container {
     display: inline-block;
     text-align: center;
   }
+  .random {
+    margin-top: 50%;
+    height: 125px;
+  }
   .white {
-    height: 50px;
-    font-size: 20px;
+    height: 70px;
+    font-size: 26px;
     margin-top: 25px;
-
   }
 }

@@ -6,12 +6,12 @@ button {
   width: 200px;
   height: 100px;
   font-size: 26px;
+  color: white;
+  margin: 15px;
   background-color: #e5b6d5;
   border: 10px solid #cc7fb5;
   border-top-color: #b2479a;
   border-bottom-color: #b2479a;
-  color: white;
-  margin: 15px;
 }
 
 .container {
@@ -25,4 +25,11 @@ button {
 
 button:focus {
   outline: 0;
+}
+
+button:hover {
+  background-color: #b2479a;
+  border: 10px solid #e5b6d5;
+  border-top-color: #cc7fb5;
+  border-bottom-color:#cc7fb5;
 }

@@ -2,7 +2,7 @@
 
 button {
   font-family: 'Open Sans', sans-serif;
-  width: 285px;
+  width: 320px;
   height: 143px;
   font-size: 40px;
   text-transform: uppercase;
@@ -55,14 +55,14 @@ button:hover {
 }
 
   .random {
-    margin-top: 2%;
+    margin-top: 25%;
 }
 
   .white {
-    width: 285px;
+    width: 320px;
     height: 143px;
     font-size: 40px;
-    margin-top: 2%;
+    margin-top: 25%;
 }
 
 }
